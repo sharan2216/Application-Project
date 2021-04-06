@@ -20,6 +20,7 @@ public class BrowserFactory {
 		}
 		if(browsername.equals("iexplore"))
 		{
+			 System.out.println("browser started");
 			System.setProperty("webdriver.iexplore.driver","./Drivers/IEDriverServer.exe");
 			driver=new InternetExplorerDriver();
 			driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
