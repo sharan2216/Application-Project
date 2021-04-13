@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-03T19:33:54 IST" name="Default suite" finished-at="2021-04-03T19:34:07 IST" duration-ms="12916">
+  <suite started-at="2021-04-13T12:51:45Z" name="Default suite" finished-at="2021-04-13T12:51:51Z" duration-ms="6057">
     <groups>
     </groups>
-    <test started-at="2021-04-03T19:33:54 IST" name="Default test" finished-at="2021-04-03T19:34:07 IST" duration-ms="12916">
-      <class name="TestCases.CRMLogin">
-        <test-method signature="loginmethod()[pri:0, instance:TestCases.CRMLogin@5276e6b0]" started-at="2021-04-03T19:33:55 IST" name="loginmethod" finished-at="2021-04-03T19:34:07 IST" duration-ms="12879" status="PASS">
+    <test started-at="2021-04-13T12:51:45Z" name="Default test" finished-at="2021-04-13T12:51:51Z" duration-ms="6057">
+      <class name="TestCases.DropDown">
+        <test-method signature="demo()[pri:0, instance:TestCases.DropDown@1a6d8329]" started-at="2021-04-13T12:51:45Z" name="demo" finished-at="2021-04-13T12:51:51Z" duration-ms="6029" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginmethod -->
-      </class> <!-- TestCases.CRMLogin -->
+        </test-method> <!-- demo -->
+      </class> <!-- TestCases.DropDown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

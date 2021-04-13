@@ -1,20 +1,23 @@
 package TestCases;
 
+import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.Test;
-
 import TestCases.BrowserFactory;
+//import TestCases.BrowserFactory.*;
 
-public class LoginApp {
+public class LoginApp
+{
 	WebDriver driver;
+	
 	@Test
+	
 	public void loginmethod()
 	{
 				{
 				driver=BrowserFactory.startApplication(driver,"Chrome","https://www.google.co.in/?gws_rd=ssl");
+				//driver=BrowserFactory.startApplication(driver,"browsername","https://www.google.co.in/?gws_rd=ssl");
 				//driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
 				driver.manage().window().maximize();
 				driver.get("https://www.google.co.in/?gws_rd=ssl");

@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
  
 public class CRMLogin extends Credentials {
 	WebDriver driver;
+	
 	@Test
 	public void loginmethod()
 	{

@@ -7,8 +7,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.Parameters;
+import  org.testng.annotations.*;
 
 public class BrowserFactory {
+	//@Parameters("browsername")
+	@BeforeClass
 	public static WebDriver startApplication(WebDriver driver,String browsername,String appURL)
 	{
 		if(browsername.equals("Chrome"))//89.0.4389.114
@@ -33,7 +37,7 @@ public class BrowserFactory {
 		}
 		else
 		{
-			System.out.println("Browser doesn't exist");
+			System.out.println("Browser  exist");
 		}
 		return driver;
 	  }
